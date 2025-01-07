@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+#countdown-container {
+  text-align: center;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family: 'Comic Sans MS', cursive; /* 使用可爱风格的字体 */
+  text-shadow: 0 0 5px #ff00ff, 0 0 10px #00ffff; /* 添加彩色文字阴影，营造欢快氛围 */
+  color: #ffcc00; /* 改变文字颜色为暖黄色，更显温馨 */
+}
+
+#countdown {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.greeting-text {
+  font-size: 20px;
+  font-family: 'Comic Sans MS', cursive; /* 使用可爱风格的字体 */
+  text-shadow: 0 0 3px #ff00ff, 0 0 6px #00ffff; /* 文字阴影，增加活泼感 */
+  color: #00ff00; /* 设置为绿色，寓意生机与希望 */
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px dashed #00ffff; /* 添加虚线边框，更显可爱 */
+  border-radius: 10px; /* 圆角边框 */
+  background-color: rgba(255, 255, 255, 0.1); /* 半透明背景 */
+}
